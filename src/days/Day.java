@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 public abstract class Day {
 	
 	public static final Day[] DAYS = new Day[] {
-
+		new Day1()
 	};
 	
 	protected abstract int getChallengeNumber();

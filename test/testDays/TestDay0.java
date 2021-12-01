@@ -5,7 +5,6 @@ import days.Day0;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class TestDay0 {
@@ -14,11 +13,11 @@ public class TestDay0 {
 
     @Test
     public void testPart1() {
-        Assertions.assertEquals(day.part1(new ArrayList<>()), 0);
+        Assertions.assertEquals(0, day.part1(new ArrayList<>()));
     }
 
     @Test
     public void testPart2() {
-        Assertions.assertEquals(day.part2(new ArrayList<>()), 0);
+        Assertions.assertEquals(0, day.part2(new ArrayList<>()));
     }
 }
